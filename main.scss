@@ -1,0 +1,8 @@
+// Your variable overrides
+$theme-colors: (
+  "primary": #a0e919,
+  "danger": #16fa01
+);
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap.scss"
