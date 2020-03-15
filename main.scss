@@ -1,9 +1,7 @@
-// Your variable overrides
-$theme-colors: (
-  "primary": #c226e9,
-  "danger": #16fa01
-);
 
+.container {
+  outline: red 1px dotted;
+}
 
 // Grid breakpoints
 //
@@ -35,8 +33,11 @@ $container-max-widths: (
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns:                12 !default;
-$grid-gutter-width:           30px !default;
+$grid-gutter-width:           16px !default;
 $grid-row-columns:            6 !default;
+
+// Custom variables
+@import "custom.scss";
 
 // Bootstrap and its default variables
 @import "node_modules/bootstrap/scss/bootstrap.scss"
